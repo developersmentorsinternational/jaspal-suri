@@ -18,6 +18,8 @@
 		F82DB5A12208EE8900ACBC09 /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5A02208EE8800ACBC09 /* ScheduleTableViewController.swift */; };
 		F82DB5A32208F0CD00ACBC09 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5A22208F0CD00ACBC09 /* RegisterViewController.swift */; };
 		F82DB5A52208F0D500ACBC09 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5A42208F0D500ACBC09 /* LoginViewController.swift */; };
+		F82DB5A7220907D800ACBC09 /* MessageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5A6220907D800ACBC09 /* MessageDetailViewController.swift */; };
+		F82DB5A92209081100ACBC09 /* ScheduleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5A82209081100ACBC09 /* ScheduleDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		F82DB5A02208EE8800ACBC09 /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
 		F82DB5A22208F0CD00ACBC09 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F82DB5A42208F0D500ACBC09 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F82DB5A6220907D800ACBC09 /* MessageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailViewController.swift; sourceTree = "<group>"; };
+		F82DB5A82209081100ACBC09 /* ScheduleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				F82DB5862208C69C00ACBC09 /* AppDelegate.swift */,
 				F82DB5882208C69C00ACBC09 /* ViewController.swift */,
 				F82DB58A2208C69C00ACBC09 /* Main.storyboard */,
+				F82DB5A82209081100ACBC09 /* ScheduleDetailViewController.swift */,
+				F82DB5A6220907D800ACBC09 /* MessageDetailViewController.swift */,
 				F82DB5A22208F0CD00ACBC09 /* RegisterViewController.swift */,
 				F82DB5A42208F0D500ACBC09 /* LoginViewController.swift */,
 				F82DB59C2208EE1F00ACBC09 /* MessagesTableViewController.swift */,
@@ -155,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F82DB5A52208F0D500ACBC09 /* LoginViewController.swift in Sources */,
+				F82DB5A7220907D800ACBC09 /* MessageDetailViewController.swift in Sources */,
 				F82DB59B2208EDC500ACBC09 /* ProfileViewController.swift in Sources */,
+				F82DB5A92209081100ACBC09 /* ScheduleDetailViewController.swift in Sources */,
 				F82DB5A12208EE8900ACBC09 /* ScheduleTableViewController.swift in Sources */,
 				F82DB59D2208EE1F00ACBC09 /* MessagesTableViewController.swift in Sources */,
 				F82DB5A32208F0CD00ACBC09 /* RegisterViewController.swift in Sources */,
