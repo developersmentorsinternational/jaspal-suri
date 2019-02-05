@@ -18,6 +18,45 @@
                     <view key="view" contentMode="scaleToFill" id="jay-vl-k7q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blr-J8-WFV">
+                                <rect key="frame" x="35" y="107" width="38" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Message Details:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djN-hS-Y8K">
+                                <rect key="frame" x="35" y="208" width="131" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h7v-Ef-f8v">
+                                <rect key="frame" x="151" y="102" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAq-RB-PMf">
+                                <rect key="frame" x="35" y="160" width="164" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Set event reminder time"/>
+                                <connections>
+                                    <segue destination="9s0-3U-bgt" kind="show" id="waM-3w-uLn"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hRn-Pr-BGh">
+                                <rect key="frame" x="35" y="252" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dnA-7e-cKY"/>
                     </view>
@@ -25,7 +64,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hlc-6k-1Zs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1334" y="99"/>
+            <point key="canvasLocation" x="1333.5999999999999" y="98.50074962518741"/>
         </scene>
         <!--Messages-->
         <scene sceneID="g8W-pM-EUq">
@@ -209,6 +248,43 @@
                     <view key="view" contentMode="scaleToFill" id="prQ-Qd-XHj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="eVR-vY-dii">
+                                <rect key="frame" x="0.0" y="130" width="375" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="571079844.71215999">
+                                    <!--2019-02-05 17:17:24 +0000-->
+                                </date>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Repeat Every:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wCj-j1-Tj0">
+                                <rect key="frame" x="16" y="382" width="106" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="svN-lf-KU8">
+                                <rect key="frame" x="119" y="382" width="138" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xVe-yW-DYQ">
+                                <rect key="frame" x="246" y="382" width="138" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqn-vA-3a8">
+                                <rect key="frame" x="75" y="92" width="135" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Edit Event Message"/>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="512-U2-5WK">
+                                <rect key="frame" x="101" y="329" width="121" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="F3C-Rl-RBq"/>
                     </view>
@@ -226,9 +302,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wBq-If-E4c">
-                                <rect key="frame" x="16" y="419" width="311.5" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wBq-If-E4c">
+                                <rect key="frame" x="32" y="568" width="311.5" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edV-bZ-x3G">
                                         <rect key="frame" x="0.0" y="0.0" width="196" height="30"/>
@@ -254,14 +329,12 @@
                                     <navigationItem title="Register" id="Gh6-SE-Za5"/>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mentors-intl_logo" translatesAutoresizingMaskIntoConstraints="NO" id="KoN-ys-KkT">
-                                <rect key="frame" x="67" y="83" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="mentors-intl_logo" translatesAutoresizingMaskIntoConstraints="NO" id="KoN-ys-KkT">
+                                <rect key="frame" x="37.5" y="83" width="300" height="128"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QRz-NN-Gif">
-                                <rect key="frame" x="92" y="229" width="159" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QRz-NN-Gif">
+                                <rect key="frame" x="108" y="229" width="159" height="90"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Teq-9M-Vdr">
                                         <rect key="frame" x="0.0" y="0.0" width="159" height="30"/>
@@ -319,9 +392,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="KoN-ys-KkT" firstAttribute="centerX" secondItem="egX-DU-sTM" secondAttribute="centerX" id="04N-f8-GZ4"/>
+                            <constraint firstItem="QRz-NN-Gif" firstAttribute="leading" secondItem="uc4-tG-bNK" secondAttribute="leading" constant="108" id="DOO-LK-uPJ"/>
+                            <constraint firstItem="QRz-NN-Gif" firstAttribute="centerX" secondItem="egX-DU-sTM" secondAttribute="centerX" id="XRR-JQ-M94"/>
                             <constraint firstItem="5ZP-p8-cJ1" firstAttribute="trailing" secondItem="uc4-tG-bNK" secondAttribute="trailing" id="ahr-jw-zI5"/>
+                            <constraint firstItem="uc4-tG-bNK" firstAttribute="trailing" secondItem="QRz-NN-Gif" secondAttribute="trailing" constant="108" id="bcg-li-x1S"/>
+                            <constraint firstItem="wBq-If-E4c" firstAttribute="centerX" secondItem="egX-DU-sTM" secondAttribute="centerX" id="l0q-lj-rea"/>
                             <constraint firstItem="5ZP-p8-cJ1" firstAttribute="leading" secondItem="uc4-tG-bNK" secondAttribute="leading" id="plo-dJ-ko9"/>
                             <constraint firstItem="5ZP-p8-cJ1" firstAttribute="top" secondItem="uc4-tG-bNK" secondAttribute="top" id="w7u-Qm-RCJ"/>
+                            <constraint firstItem="uc4-tG-bNK" firstAttribute="bottom" secondItem="wBq-If-E4c" secondAttribute="bottom" constant="20" id="xyZ-ta-CsU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uc4-tG-bNK"/>
                     </view>
@@ -340,9 +419,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qbj-hv-kxj">
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qbj-hv-kxj">
                                 <rect key="frame" x="32" y="419" width="311.5" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jm-je-R6N">
                                         <rect key="frame" x="0.0" y="0.0" width="196" height="30"/>
@@ -368,14 +446,12 @@
                                     <navigationItem title="Sign In" id="SVc-Wz-bQn"/>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mentors-intl_logo" translatesAutoresizingMaskIntoConstraints="NO" id="tBA-iI-FU2">
-                                <rect key="frame" x="67" y="88" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="mentors-intl_logo" translatesAutoresizingMaskIntoConstraints="NO" id="tBA-iI-FU2">
+                                <rect key="frame" x="37.5" y="88" width="300" height="128"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hW8-vo-fKF">
-                                <rect key="frame" x="109" y="280" width="111.5" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hW8-vo-fKF">
+                                <rect key="frame" x="132" y="280" width="111.5" height="60"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="XPK-YL-ro5">
                                         <rect key="frame" x="0.0" y="0.0" width="111.5" height="30"/>
@@ -416,9 +492,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="hW8-vo-fKF" firstAttribute="centerX" secondItem="HRb-Xz-DIx" secondAttribute="centerX" id="6Dn-28-qYg"/>
                             <constraint firstItem="wcp-X2-aUF" firstAttribute="trailing" secondItem="hCO-JI-iVB" secondAttribute="trailing" id="7Qz-sm-AMD"/>
                             <constraint firstItem="wcp-X2-aUF" firstAttribute="top" secondItem="hCO-JI-iVB" secondAttribute="top" id="GuI-4u-6kA"/>
+                            <constraint firstItem="tBA-iI-FU2" firstAttribute="centerX" secondItem="HRb-Xz-DIx" secondAttribute="centerX" id="HvK-p3-job"/>
                             <constraint firstItem="wcp-X2-aUF" firstAttribute="leading" secondItem="hCO-JI-iVB" secondAttribute="leading" id="JDb-J0-dJm"/>
+                            <constraint firstItem="qbj-hv-kxj" firstAttribute="centerX" secondItem="HRb-Xz-DIx" secondAttribute="centerX" id="Ucb-oZ-V7v"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hCO-JI-iVB"/>
                     </view>
@@ -509,5 +588,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="xgK-zA-a4C"/>
+        <segue reference="waM-3w-uLn"/>
     </inferredMetricsTieBreakers>
 </document>

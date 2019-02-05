@@ -79,9 +79,9 @@
 				F82DB5A42208F0D500ACBC09 /* LoginViewController.swift */,
 				F82DB59C2208EE1F00ACBC09 /* MessagesTableViewController.swift */,
 				F82DB5A02208EE8800ACBC09 /* ScheduleTableViewController.swift */,
+				F82DB59A2208EDC500ACBC09 /* ProfileViewController.swift */,
 				F82DB58D2208C69D00ACBC09 /* Assets.xcassets */,
 				F82DB58F2208C69D00ACBC09 /* LaunchScreen.storyboard */,
-				F82DB59A2208EDC500ACBC09 /* ProfileViewController.swift */,
 				F82DB5922208C69D00ACBC09 /* Info.plist */,
 				F82DB5982208C6A500ACBC09 /* README.md */,
 			);
