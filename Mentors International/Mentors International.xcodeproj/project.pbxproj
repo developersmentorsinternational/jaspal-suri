@@ -47,6 +47,7 @@
 		F82DB5A82209081100ACBC09 /* ScheduleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetailViewController.swift; sourceTree = "<group>"; };
 		F82DB5AA220A376A00ACBC09 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		F82DB5AC220A37DF00ACBC09 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		F8769A72220CA1A900423FFE /* Thursday.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Thursday.md; sourceTree = "<group>"; };
 		F8C4622F220B909F008B465E /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +105,7 @@
 				F82DB5882208C69C00ACBC09 /* ViewController.swift */,
 				F82DB58A2208C69C00ACBC09 /* Main.storyboard */,
 				F82DB5AC220A37DF00ACBC09 /* ContactDetailViewController.swift */,
+				F8769A72220CA1A900423FFE /* Thursday.md */,
 				F82DB5AA220A376A00ACBC09 /* ContactsTableViewController.swift */,
 				F82DB5A82209081100ACBC09 /* ScheduleDetailViewController.swift */,
 				F82DB5A6220907D800ACBC09 /* MessageDetailViewController.swift */,
