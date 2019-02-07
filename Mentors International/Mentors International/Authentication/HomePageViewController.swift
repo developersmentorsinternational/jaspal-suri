@@ -1,14 +1,14 @@
 //
-//  ProfileViewController.swift
+//  HomePageViewController.swift
 //  Mentors International
 //
-//  Created by Jaspal on 2/4/19.
+//  Created by Jaspal on 2/6/19.
 //  Copyright © 2019 Jaspal Suri. All rights reserved.
 //
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class HomePageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

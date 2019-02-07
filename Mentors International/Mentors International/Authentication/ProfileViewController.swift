@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  ProfileViewController.swift
 //  Mentors International
 //
 //  Created by Jaspal on 2/4/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +16,18 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    
+    @IBAction func signOutButton(_ sender: Any) {
+        print("Sign out button tapped")
+    }
+    
+    @IBAction func loadMemberProfileButton(_ sender: Any) {
+        print("Load member profile.")
+    }
+    
+    
+    @IBOutlet weak var mentorFullNameLabel: UILabel!
+    
     /*
     // MARK: - Navigation
 

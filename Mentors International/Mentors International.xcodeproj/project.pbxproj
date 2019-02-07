@@ -22,6 +22,7 @@
 		F82DB5A92209081100ACBC09 /* ScheduleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5A82209081100ACBC09 /* ScheduleDetailViewController.swift */; };
 		F82DB5AB220A376A00ACBC09 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5AA220A376A00ACBC09 /* ContactsTableViewController.swift */; };
 		F82DB5AD220A37DF00ACBC09 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5AC220A37DF00ACBC09 /* ContactDetailViewController.swift */; };
+		F8C46230220B909F008B465E /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C4622F220B909F008B465E /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		F82DB5A82209081100ACBC09 /* ScheduleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetailViewController.swift; sourceTree = "<group>"; };
 		F82DB5AA220A376A00ACBC09 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		F82DB5AC220A37DF00ACBC09 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		F8C4622F220B909F008B465E /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,17 +83,26 @@
 				F82DB5AA220A376A00ACBC09 /* ContactsTableViewController.swift */,
 				F82DB5A82209081100ACBC09 /* ScheduleDetailViewController.swift */,
 				F82DB5A6220907D800ACBC09 /* MessageDetailViewController.swift */,
-				F82DB5A22208F0CD00ACBC09 /* RegisterViewController.swift */,
-				F82DB5A42208F0D500ACBC09 /* LoginViewController.swift */,
+				F8C4622E220B8EDF008B465E /* Authentication */,
 				F82DB59C2208EE1F00ACBC09 /* MessagesTableViewController.swift */,
 				F82DB5A02208EE8800ACBC09 /* ScheduleTableViewController.swift */,
-				F82DB59A2208EDC500ACBC09 /* ProfileViewController.swift */,
 				F82DB58D2208C69D00ACBC09 /* Assets.xcassets */,
 				F82DB58F2208C69D00ACBC09 /* LaunchScreen.storyboard */,
 				F82DB5922208C69D00ACBC09 /* Info.plist */,
 				F82DB5982208C6A500ACBC09 /* README.md */,
 			);
 			path = "Mentors International";
+			sourceTree = "<group>";
+		};
+		F8C4622E220B8EDF008B465E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F82DB5A22208F0CD00ACBC09 /* RegisterViewController.swift */,
+				F82DB5A42208F0D500ACBC09 /* LoginViewController.swift */,
+				F8C4622F220B909F008B465E /* HomePageViewController.swift */,
+				F82DB59A2208EDC500ACBC09 /* ProfileViewController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 				F82DB5A12208EE8900ACBC09 /* ScheduleTableViewController.swift in Sources */,
 				F82DB59D2208EE1F00ACBC09 /* MessagesTableViewController.swift in Sources */,
 				F82DB5A32208F0CD00ACBC09 /* RegisterViewController.swift in Sources */,
+				F8C46230220B909F008B465E /* HomePageViewController.swift in Sources */,
 				F82DB5AD220A37DF00ACBC09 /* ContactDetailViewController.swift in Sources */,
 				F82DB5892208C69C00ACBC09 /* ViewController.swift in Sources */,
 				F82DB5872208C69C00ACBC09 /* AppDelegate.swift in Sources */,
