@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2447155370EED8D576CD6659 /* Pods_Mentors_International.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F92D710772F3998A186B6D9 /* Pods_Mentors_International.framework */; };
 		F82DB5872208C69C00ACBC09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5862208C69C00ACBC09 /* AppDelegate.swift */; };
 		F82DB5892208C69C00ACBC09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5882208C69C00ACBC09 /* ViewController.swift */; };
 		F82DB58C2208C69C00ACBC09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82DB58A2208C69C00ACBC09 /* Main.storyboard */; };
@@ -26,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F92D710772F3998A186B6D9 /* Pods_Mentors_International.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mentors_International.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B18A19B767A12C19853207 /* Pods-Mentors International.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mentors International.debug.xcconfig"; path = "Target Support Files/Pods-Mentors International/Pods-Mentors International.debug.xcconfig"; sourceTree = "<group>"; };
+		EAB19C59756EBECE77F89125 /* Pods-Mentors International.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mentors International.release.xcconfig"; path = "Target Support Files/Pods-Mentors International/Pods-Mentors International.release.xcconfig"; sourceTree = "<group>"; };
 		F82DB5832208C69C00ACBC09 /* Mentors International.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mentors International.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82DB5862208C69C00ACBC09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F82DB5882208C69C00ACBC09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2447155370EED8D576CD6659 /* Pods_Mentors_International.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		666EF94AF6F6194796201A82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8B18A19B767A12C19853207 /* Pods-Mentors International.debug.xcconfig */,
+				EAB19C59756EBECE77F89125 /* Pods-Mentors International.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B95B0E3E2D4F116D7D914E29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F92D710772F3998A186B6D9 /* Pods_Mentors_International.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F82DB57A2208C69C00ACBC09 = {
 			isa = PBXGroup;
 			children = (
 				F82DB5852208C69C00ACBC09 /* Mentors International */,
 				F82DB5842208C69C00ACBC09 /* Products */,
+				666EF94AF6F6194796201A82 /* Pods */,
+				B95B0E3E2D4F116D7D914E29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +123,8 @@
 			children = (
 				F82DB5A22208F0CD00ACBC09 /* RegisterViewController.swift */,
 				F82DB5A42208F0D500ACBC09 /* LoginViewController.swift */,
-				F8C4622F220B909F008B465E /* HomePageViewController.swift */,
 				F82DB59A2208EDC500ACBC09 /* ProfileViewController.swift */,
+				F8C4622F220B909F008B465E /* HomePageViewController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -112,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F82DB5952208C69D00ACBC09 /* Build configuration list for PBXNativeTarget "Mentors International" */;
 			buildPhases = (
+				973BB245AFEB8D32B16DEE42 /* [CP] Check Pods Manifest.lock */,
 				F82DB57F2208C69C00ACBC09 /* Sources */,
 				F82DB5802208C69C00ACBC09 /* Frameworks */,
 				F82DB5812208C69C00ACBC09 /* Resources */,
+				A9A2D576B6F940AA6265B8D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,6 +197,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		973BB245AFEB8D32B16DEE42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mentors International-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A2D576B6F940AA6265B8D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mentors International/Pods-Mentors International-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mentors International/Pods-Mentors International-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F82DB57F2208C69C00ACBC09 /* Sources */ = {
@@ -332,6 +405,7 @@
 		};
 		F82DB5962208C69D00ACBC09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8B18A19B767A12C19853207 /* Pods-Mentors International.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -350,6 +424,7 @@
 		};
 		F82DB5972208C69D00ACBC09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB19C59756EBECE77F89125 /* Pods-Mentors International.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

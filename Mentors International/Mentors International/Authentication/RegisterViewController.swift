@@ -106,10 +106,10 @@ class RegisterViewController: UIViewController {
                     
                     // replace "userId" with something else
                     // should be "id"
-                    let userId = parseJSON["userId"] as? String
-                    print("User id: \(String(describing: userId!))")
+                    let userID = parseJSON["id"] as? String
+                    print("User id: \(String(describing: userID!))")
                     
-                    if (userId?.isEmpty)! {
+                    if (userID?.isEmpty)! {
                         self.displayMessage(userMessage: "Could not successfully perform this request. Please try again later.")
                         return
                     } else {
@@ -152,8 +152,6 @@ class RegisterViewController: UIViewController {
                     self.dismiss(animated: true, completion: nil)
                 }
             }
-
         }
-        
     }
 }
