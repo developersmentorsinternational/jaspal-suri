@@ -23,7 +23,6 @@
 		F82DB5A92209081100ACBC09 /* ScheduleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5A82209081100ACBC09 /* ScheduleDetailViewController.swift */; };
 		F82DB5AB220A376A00ACBC09 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5AA220A376A00ACBC09 /* ContactsTableViewController.swift */; };
 		F82DB5AD220A37DF00ACBC09 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5AC220A37DF00ACBC09 /* ContactDetailViewController.swift */; };
-		F8C46230220B909F008B465E /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C4622F220B909F008B465E /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +47,6 @@
 		F82DB5AA220A376A00ACBC09 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		F82DB5AC220A37DF00ACBC09 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
 		F8769A72220CA1A900423FFE /* Thursday.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Thursday.md; sourceTree = "<group>"; };
-		F8C4622F220B909F008B465E /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +124,6 @@
 				F82DB5A22208F0CD00ACBC09 /* RegisterViewController.swift */,
 				F82DB5A42208F0D500ACBC09 /* LoginViewController.swift */,
 				F82DB59A2208EDC500ACBC09 /* ProfileViewController.swift */,
-				F8C4622F220B909F008B465E /* HomePageViewController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -260,7 +257,6 @@
 				F82DB5A12208EE8900ACBC09 /* ScheduleTableViewController.swift in Sources */,
 				F82DB59D2208EE1F00ACBC09 /* MessagesTableViewController.swift in Sources */,
 				F82DB5A32208F0CD00ACBC09 /* RegisterViewController.swift in Sources */,
-				F8C46230220B909F008B465E /* HomePageViewController.swift in Sources */,
 				F82DB5AD220A37DF00ACBC09 /* ContactDetailViewController.swift in Sources */,
 				F82DB5892208C69C00ACBC09 /* ViewController.swift in Sources */,
 				F82DB5872208C69C00ACBC09 /* AppDelegate.swift in Sources */,
