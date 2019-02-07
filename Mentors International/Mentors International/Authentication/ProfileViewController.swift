@@ -20,7 +20,7 @@ class ProfileViewController: UIViewController {
     
     @IBAction func signOutButton(_ sender: Any) {
         print("Sign out button tapped")
-        KeychainWrapper.standard.removeObject(forKey: "cookie")
+        KeychainWrapper.standard.removeObject(forKey: "token")
         KeychainWrapper.standard.removeObject(forKey: "id")
         
         // Take the user back to the sign in page.
@@ -35,14 +35,14 @@ class ProfileViewController: UIViewController {
     }
     
     func loadMemberProfile() {
-        let cookie: String? = KeychainWrapper.standard.string(forKey: "cookie")
+        let token: String? = KeychainWrapper.standard.string(forKey: "token")
         let userID: String? = KeychainWrapper.standard.string(forKey: "id")
         
         // Send HTTP Request to perform Sign in
         let myURL = URL(string: "https://mentors-international.herokuapp.com/api/user/\(userID!)")
         var request = URLRequest(url: myURL!)
         request.httpMethod = "GET"
-        request.addValue("Bearer \(cookie!)", forHTTPHeaderField: "Authorization")
+        request.addValue("Bearer \(token!)", forHTTPHeaderField: "Authorization")
         
         let task = URLSession.shared.dataTask(with: request) { (data: Data?, response: URLResponse?, error: Error?) in
             

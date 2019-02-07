@@ -94,18 +94,18 @@ class LoginViewController: UIViewController {
 //                    let cookies = HTTPCookie.cookies(withResponseHeaderFields: httpResponse.allHeaderFields as! [String : String], for: responseURL)
 //                    setCookie(cookie: cookies)
                     
-                    let cookie = parseJSON["cookie"] as? String
+                    let token = parseJSON["token"] as? String
                     let userID = parseJSON["id"] as? String
-                    print("Cookie: \(String(describing: cookie!))")
+                    print("Token: \(String(describing: token!))")
                     
-                    let saveCookie: Bool = KeychainWrapper.standard.set(cookie!, forKey: "cookie")
-                    let saveUserID: Bool = KeychainWrapper.standard.set(userID!, forKey: "userID")
+                    let saveToken: Bool = KeychainWrapper.standard.set(token!, forKey: "token")
+                    let saveUserID: Bool = KeychainWrapper.standard.set(userID!, forKey: "id")
                     
                     // Debug test for Keychain
-                    print("The cookie save result: \(saveCookie)")
-                    print("The userID save result \(saveUserID)")
+                    print("The token save result: \(saveToken)")
+                    print("The userID save result: \(saveUserID)")
                     
-                    if (cookie?.isEmpty)! {
+                    if (token?.isEmpty)! {
                         self.displayMessage(userMessage: "Could not successfully perform this request. Please try again later.")
                         return
                     }

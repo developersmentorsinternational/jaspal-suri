@@ -23,6 +23,8 @@
 		F82DB5A92209081100ACBC09 /* ScheduleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5A82209081100ACBC09 /* ScheduleDetailViewController.swift */; };
 		F82DB5AB220A376A00ACBC09 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5AA220A376A00ACBC09 /* ContactsTableViewController.swift */; };
 		F82DB5AD220A37DF00ACBC09 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DB5AC220A37DF00ACBC09 /* ContactDetailViewController.swift */; };
+		F8769A75220CD2A600423FFE /* CustomTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8769A74220CD2A600423FFE /* CustomTableTableViewController.swift */; };
+		F8769A77220CF12D00423FFE /* Mentor's International Heroku JSON.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F8769A76220CF12D00423FFE /* Mentor's International Heroku JSON.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,9 @@
 		F82DB5AA220A376A00ACBC09 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		F82DB5AC220A37DF00ACBC09 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
 		F8769A72220CA1A900423FFE /* Thursday.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Thursday.md; sourceTree = "<group>"; };
+		F8769A73220CA6F100423FFE /* Todo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Todo.md; sourceTree = "<group>"; };
+		F8769A74220CD2A600423FFE /* CustomTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableTableViewController.swift; sourceTree = "<group>"; };
+		F8769A76220CF12D00423FFE /* Mentor's International Heroku JSON.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Mentor's International Heroku JSON.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +106,10 @@
 			children = (
 				F82DB5862208C69C00ACBC09 /* AppDelegate.swift */,
 				F82DB5882208C69C00ACBC09 /* ViewController.swift */,
+				F8769A76220CF12D00423FFE /* Mentor's International Heroku JSON.rtf */,
 				F82DB58A2208C69C00ACBC09 /* Main.storyboard */,
+				F8769A74220CD2A600423FFE /* CustomTableTableViewController.swift */,
+				F8769A73220CA6F100423FFE /* Todo.md */,
 				F82DB5AC220A37DF00ACBC09 /* ContactDetailViewController.swift */,
 				F8769A72220CA1A900423FFE /* Thursday.md */,
 				F82DB5AA220A376A00ACBC09 /* ContactsTableViewController.swift */,
@@ -188,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8769A77220CF12D00423FFE /* Mentor's International Heroku JSON.rtf in Resources */,
 				F82DB5912208C69D00ACBC09 /* LaunchScreen.storyboard in Resources */,
 				F82DB58E2208C69D00ACBC09 /* Assets.xcassets in Resources */,
 				F82DB5992208C6A500ACBC09 /* README.md in Resources */,
@@ -258,6 +267,7 @@
 				F82DB59D2208EE1F00ACBC09 /* MessagesTableViewController.swift in Sources */,
 				F82DB5A32208F0CD00ACBC09 /* RegisterViewController.swift in Sources */,
 				F82DB5AD220A37DF00ACBC09 /* ContactDetailViewController.swift in Sources */,
+				F8769A75220CD2A600423FFE /* CustomTableTableViewController.swift in Sources */,
 				F82DB5892208C69C00ACBC09 /* ViewController.swift in Sources */,
 				F82DB5872208C69C00ACBC09 /* AppDelegate.swift in Sources */,
 			);
