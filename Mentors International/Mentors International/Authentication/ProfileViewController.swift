@@ -57,16 +57,13 @@ class ProfileViewController: UIViewController {
                 
                 if let parseJSON = json {
                     
-                    // replace "userId" with something else
-                    // should be "id"
-                    let userID = parseJSON["id"] as? String
-                    print("User id: \(String(describing: userID!))")
-                    
-                    if (userID?.isEmpty)! {
-                        self.displayMessage(userMessage: "Could not successfully perform this request. Please try again later.")
-                        return
-                    } else {
-                        self.displayMessage(userMessage: "Successfully registered a new account. Please sign in!")
+                    DispatchQueue.main.async {
+                        let firstName: String? = parseJSON["firstName"] as? String
+                        let lastName: String? = parseJSON["lastName"] as? String
+                        
+                        if firstName?.isEmpty != true && lastName?.isEmpty != true {
+                            self.mentorFullNameLabel.text = "\(firstName!) \(lastName!)"
+                        }
                     }
                     
                 } else {
